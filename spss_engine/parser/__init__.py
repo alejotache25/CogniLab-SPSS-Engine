@@ -1,0 +1,1 @@
+"""Parser subpackage: lexer, tokens, parser, AST, command registry."""
