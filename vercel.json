@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "spss_server.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "spss_server.py"
+    }
+  ]
+}
